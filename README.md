@@ -26,16 +26,16 @@ This analysis aims to provide insights into employee attrition, demographics, an
 
 * HR data ( Excel file: HR Data.xlsx)
 * Key Columns:
- + Attrition
- + CF_age band
- + CF_attrition label
- + Department
-	+ Education Field
-	+ Gender
- + Job Role
- + CF_current Employee
- + Employee Count
-	+ Job Satisfaction
+ 	 + Attrition
+ 	 + CF_age band
+	 + CF_attrition label
+	 + Department
+	 + Education Field
+	 + Gender
+ 	 + Job Role
+ 	 + CF_current Employee
+ 	 + Employee Count
+	 + Job Satisfaction
 
  
 ## Report Overview
@@ -133,21 +133,21 @@ The report covers the following metrics:
 ## DAX Functions
 
 * `TOTAL EMPLOYEES`: `COUNT(HR[Employee ID])`
-* `CURRENT EMPLOYEES`: `CALCULATE(COUNT(HR[Employee ID]), HR[Attrition Status] = "Current")`
-* `ATTRITION RATE`: `DIVIDE(CALCULATE(COUNT(HR[Employee ID]), HR[Attrition Status] = "Left"), [TOTAL EMPLOYEES])`
-* `AVERAGE AGE`: `AVERAGE(HR[Age])`
-* `ATTRITION BY GENDER`: `CALCULATE(COUNT(HR[Employee ID]), HR[Gender] = "Male" || HR[Gender] = "Female")`
-* `SATISFIED EMPLOYEES`: `CALCULATE(COUNT(HR[Employee ID]), HR[Job Satisfaction] = "Satisfied")`
+* ``
+* ``
+* ``
+* ``
+* ``
 
 ## Findings
 
-* [Insert key findings and observations]
+* 
 
 
 
 ## Recommendations
 
-* [Insert recommendations based on findings]
+* 
 
 
 *Power BI File:* HR Attrition Analysis.pbix
@@ -157,8 +157,4 @@ The report covers the following metrics:
 *Folder Structure:*
 
 - HR-Attrition-Analysis/
-    - (link unavailable)
-    - HR Attrition Analysis.pbix
-    - HR_Data.csv
-    - Images/ (optional)
-    - Data (link unavailable) (optional)
+    
