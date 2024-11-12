@@ -1,8 +1,6 @@
-# HR-Attrition-Analysis
+## HR-Attrition-Analysis
 
-
-
-# HR Attrition Analysis
+# Analysis Title: HR Data-Driven Insights
 
 This repository contains a comprehensive analysis of HR data focusing on employee attrition.
 
@@ -14,8 +12,6 @@ This repository contains a comprehensive analysis of HR data focusing on employe
 4. [Comprehensive Analysis](#comprehensive-analysis)
 5. [Visualizations](#visualizations)
 6. [DAX Functions](#dax-functions)
-7. [Findings](#findings)
-8. [Recommendations](#recommendations)
 
 ---
 ## Introduction
@@ -48,113 +44,175 @@ The report covers the following metrics:
 4. Average Age of Total Employees
 5. Attrition by Gender
 6. Number of Current Employees by Age Group and Gender
-7. Sum of Current Employees who are Satisfied
-8. Job Satisfaction by Educational Field
+7. Job Satisfaction by Educational Field
 
 
 ## Comprehensive Analysis 
 
-## 1. Total Number of Employees: 1,470
+## Section 1: Workforce Overview
 
-- Analysis: The organization has a moderate-sized workforce.
-- Insights: Provides baseline for calculating other metrics.
-- Recommendations: Monitor employee count fluctuations.
+1. Total Number of Employees
 
-## 2. Total Number of Current Employees: 1,233
+- Metric: 1,470
+- Analysis: Moderate-sized workforce, impacting HR operations, training, communication, and employee engagement.
+- Insights: Baseline for calculating HR metrics (turnover rate, training participation, employee satisfaction).
+- Recommendations:
 
-- Analysis: 86% of total employees are currently employed (1,260/1,470).
-- Insights: Helps track employee turnover.
-- Recommendations: Investigate reasons for employee departures.
+    1. Monitor employee count fluctuations.
+    2. Analyze workforce size impact on HR operations.
+    3. Optimize resource allocation.
+    4. Foster positive work environment.
+    5. Regularly review HR policies.
 
-## 3. Attrition Rate: 16%
 
-- Analysis: 16% of employees left the organization (210/1,470).
-- Insights: Indicates potential retention issues.
-- Recommendations: Analyze reasons for attrition, enhance retention strategies.
+## Section 2: Employee Retention
 
-## 4. Average Age of Total Employees: 37
+2. Total Number of Current Employees
 
-- Analysis: Workforce skews slightly younger.
-- Insights: Impacts training needs, career development.
-- Recommendations: Offer training programs catering to younger employees.
+- Metric: 1,233 (84% retention)
+- Analysis: Moderate employee turnover; potential room for improvement.
+- Insights: Tracks employee turnover; informs retention strategies.
+- Recommendations:
 
-## 5. Attrition by Gender:
+    1. Investigate employee departure reasons.
+    2. Enhance retention strategies.
+    3. Develop retraining programs.
+    4. Monitor employee satisfaction.
 
-- Male: 16% (120/750)
-- Female: 12% (90/720)
+3. Attrition Rate
 
-- Analysis: Males have slightly higher attrition rates.
-- Insights: May indicate gender-specific retention issues.
-- Recommendations: Investigate causes, enhance diversity and inclusion initiatives.
+- Metric: 16%
+- Analysis: Moderate attrition; potential retention issues.
+- Insights: Highlights areas for improvement in employee retention.
+- Recommendations:
 
-## 6. Number of Current Employees by Age Group and Gender:*
+    1. Analyze attrition reasons.
+    2. Develop targeted retention strategies.
+    3. Enhance employee engagement.
+    4. Monitor workplace issues.
+
+
+## Section 3: Demographics
+
+4. Average Age of Total Employees
+
+- Metric: 37
+- Analysis: Workforce skews younger, impacting training, career development, succession planning.
+- Insights: Informs HR strategies for employee development.
+- Recommendations:
+
+    1. Offer training programs for younger employees.
+    2. Develop leadership development programs.
+    3. Foster mentorship opportunities.
+    4. Plan for succession.
+
+
+5. Attrition by Gender
+
+- Metric: Males (63.29%); Females (36.71%)
+- Analysis: Potential gender-specific retention issues.
+- Insights: Highlights diversity and inclusion concerns.
+- Recommendations:
+
+    1. Investigate gender disparity causes.
+    2. Enhance diversity and inclusion initiatives.
+    3. Develop targeted retention strategies.
+    4. Monitor workplace issues.
+
+
+## Employee Demographics by Age Group and Gender
+
+6. Metric: Number of Current Employees by Age Group and Gender
+
+## Data:
 
 | Age Group | Male | Female | Total |
 | --- | --- | --- | --- |
-| Under 25| 20 | 18 | 38 |
+| Under 25 | 20 | 18 | 38 |
 | 25-34 | 69 | 43 | 112 |
 | 35-44 | 37 | 14 | 51 |
 | 45-54 | 16 | 9 | 25 |
 | Over 55 | 8 | 3 | 11 |
 
-- Analysis: Younger employees dominate the workforce.
-- Insights: Impacts succession planning, training needs.
-- Recommendations: Develop leadership development programs.
+Analysis:
 
-7. Sum of Current Employees who are Satisfied: 900*
+The workforce is predominantly composed of younger employees, with:
 
-- Analysis: 71% of current employees are satisfied (900/1,260).
-- Insights: Indicates overall job satisfaction.
-- Recommendations: Maintain or enhance factors contributing to satisfaction.
+- 38 employees under 25 (31% of total)
+- 112 employees between 25-34 (57% of total)
 
-*8. Job Satisfaction by Educational Field:*
+This age distribution indicates:
 
-| Educational Field | Satisfied Employees | Total Employees | Satisfaction Rate |
-| --- | --- | --- | --- |
-| STEM | 500 | 700 | 71% |
-| Non-STEM | 400 | 560 | 71% |
+- Potential succession planning challenges
+- Increased training needs for younger employees
+- Opportunities for leadership development programs
 
-- Analysis: Job satisfaction consistent across educational fields.
-- Insights: Indicates broad satisfaction factors.
-- Recommendations: Investigate specific satisfaction drivers.
+Insights:
+
+This demographic breakdown highlights:
+
+- The importance of investing in employee development programs
+- The need for effective succession planning strategies
+- Potential areas for improvement in employee retention
+
+Recommendations:
+
+1. Develop leadership development programs for younger employees.
+2. Create targeted training initiatives for employees under 25.
+3. Implement succession planning strategies to address potential gaps.
+4. Monitor employee retention rates across age groups.
+5. Analyze the impact of age demographics on workforce diversity.
+
+
+## Job Satisfaction by Educational Field
+
+Table:
+
+| Job Role | Very Dissatisfied | Dissatisfied | Satisfied | Very Satisfied | Total |
+| --- | --- | --- | --- | --- | --- |
+| Healthcare Representative | 2 | 2 | 1 | 4 | 9 |
+| Human Resources | 5 | 2 | 3 | 2 | 12 |
+| Laboratory Technician | 20 | 8 | 21 | 13 | 62 |
+| Manager | 1 | 2 | 1 | 1 | 5 |
+| Manufacturing Director | 2 | 2 | 4 | 2 | 10 |
+| Research Director | 0 | 1 | 1 | 0 | 2 |
+| Research Scientist | 13 | 10 | 15 | 9 | 47 |
+| Sales Executive | 16 | 9 | 18 | 14 | 57 |
+| Sales Representative | 7 | 10 | 9 | 7 | 33 |
+| Total | 66 | 46 | 73 | 52 | 237 |
+
+Analysis:
+
+1. Overall Job Satisfaction: 73 employees are satisfied, while 46 are dissatisfied.
+2. Highest Job Satisfaction: Laboratory Technician (21 satisfied, 13 very satisfied)
+3. Lowest Job Satisfaction: Human Resources (5 very dissatisfied, 2 dissatisfied)
+4. Job Roles with High Dissatisfaction: Research Scientist (13 very dissatisfied), Sales Executive (16 very dissatisfied)
+
+Insights:
+
+1. Job satisfaction varies significantly across job roles.
+2. Laboratory Technicians are generally satisfied, while Human Resources employees are dissatisfied.
+3. Research Scientists and Sales Executives experience high levels of dissatisfaction.
+
+Recommendations:
+
+1. Investigate reasons for dissatisfaction in Human Resources and Research Scientist roles.
+2. Implement targeted training initiatives for Laboratory Technicians to maintain satisfaction.
+3. Address workplace issues contributing to dissatisfaction in Sales Executive roles.
+4. Monitor job satisfaction across all roles to identify areas for improvement
 
 
 ## Visualizations
 
-1. **Total Employees**: Card visual displaying total employee count.
-2. **Current Employees**: Card visual displaying current employee count.
-3. **Attrition Rate**: Gauge visual showing attrition rate.
-4. **Average Age**: Card visual displaying average age.
-5. **Attrition by Gender**: Bar chart comparing attrition rates by gender.
-6. **Current Employees by Age Group and Gender**: Matrix visual displaying employee distribution.
-7. **Satisfied Employees**: Card visual displaying satisfied employee count.
-8. **Job Satisfaction by Educational Field**: Bar chart analyzing job satisfaction.
+
 
 ## DAX Functions
 
-* `TOTAL EMPLOYEES`: `COUNT(HR[Employee ID])`
-* ``
-* ``
-* ``
-* ``
-* ``
-
-## Findings
-
-* 
+* `Average Age`= ` AVERAGE('Table'[Age])`
+* `Attrition Rate`= ` SUM('Table'[Attrition Count]) /SUM('Table'[Employee Count])`
 
 
-
-## Recommendations
-
-* 
+Power BI File: HR Attrition Analysis.pbix
 
 
-*Power BI File:* HR Attrition Analysis.pbix
-
-*Dataset File:* HR_Data.csv
-
-*Folder Structure:*
-
-- HR-Attrition-Analysis/
     
