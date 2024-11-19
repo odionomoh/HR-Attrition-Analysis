@@ -204,6 +204,9 @@ Recommendations:
 
 ## Visualizations
 
+![HR image](https://github.com/user-attachments/assets/47f6e99c-c5e3-4f01-b47c-9b8e80714344)
+
+
 
 
 ## DAX Functions
